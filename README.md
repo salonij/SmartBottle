@@ -1,5 +1,4 @@
 # SmartBottle
-Smart Bottle android application.
 Drinking more water can lead to clearer skin , better overall health, improved productivity and brain function , increased energy levels and even weight loss . 
 A Smart Bottle is a reusable water bottle that can track your intake and alert you if you need to drink more to hit your daily hydration goals . 
 This is especially usefully if you tend to forget to drink water throughout the day . 
