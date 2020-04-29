@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="150px"
+    android:paddingBottom="10px"
+    android:background="@drawable/bottleimg"
+    tools:context="com.example.dell.smartbottle.NameActivity">
+
+    <TextView
+        android:id="@+id/smart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#696969"
+        android:text="Hey there !"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:paddingBottom="20px"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1234"
+        android:text=" My name is smartbottle."
+        android:textSize="22sp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:paddingTop="10px"
+        android:paddingBottom="20px"
+        android:layout_below="@id/smart"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:text="and your?..."
+        android:textSize="22sp"
+        android:layout_marginLeft="140dp"
+        android:paddingBottom="20px"
+        android:paddingTop="10px"
+        tools:text="and your?..."
+        android:layout_marginRight="18dp"
+        android:layout_below="@id/text1234" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name.."
+        android:inputType="text"
+        android:textColor="#696969"
+        android:textColorHint="#696969"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="50px"
+        android:paddingLeft="60px"
+        android:paddingRight="70px"
+        android:gravity="center"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/namebut"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:background="@drawable/buttonview"
+        android:textColor="#F0F8FF"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+

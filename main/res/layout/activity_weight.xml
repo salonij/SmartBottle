@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="225px"
+    android:paddingBottom="10px"
+    android:background="@drawable/bottleimg"
+    tools:context="com.example.dell.smartbottle.WeightActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't worry, my lips"
+        android:textColor="#696969"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingLeft="180px"
+        android:paddingRight="20px"
+        android:paddingBottom="25px"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="are sealed."
+        android:textColor="#696969"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView"
+        android:paddingLeft="250px"
+        android:paddingBottom="25px"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="How much do you weigh ?"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textColorHint="#696969"
+        android:textColor="#696969"
+        android:gravity="center"
+        android:layout_marginLeft="45dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView3" />
+
+
+    <Button
+        android:id="@+id/weighbut"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:background="@drawable/buttonview"
+        android:textColor="#F0F8FF"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kg"
+        android:textColor="#696969"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/weight" />
+
+</RelativeLayout>
+

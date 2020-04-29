@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="90px"
+    android:background="@drawable/bottleimg"
+    tools:context="com.example.dell.smartbottle.Dashboard">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are left with:"
+        android:id="@+id/invi1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:paddingTop="30dp"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:paddingBottom="20px"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40sp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:paddingTop="10px"
+        android:paddingBottom="20px"
+        android:layout_below="@id/invi1"
+        android:layout_marginLeft="125dp"
+        android:id="@+id/llqq" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:id="@+id/invi2"
+        android:textColor="#696969"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_below="@id/invi1"
+        android:paddingTop="10px"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/llqq"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to meet your daily"
+        android:id="@+id/invi3"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="22sp"
+        android:layout_marginLeft="95dp"
+        android:paddingBottom="20px"
+        android:paddingTop="30px"
+        android:layout_marginRight="18dp"
+        android:layout_below="@+id/llqq"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="water-intake goal."
+        android:id="@+id/invi4"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="22sp"
+        android:layout_marginLeft="95dp"
+        android:paddingBottom="20px"
+        android:paddingTop="10px"
+        android:layout_marginRight="18dp"
+        android:layout_below="@+id/invi3"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Continue tracking"
+        android:background="@drawable/buttonview"
+        android:textColor="#F0F8FF"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fetch" />
+</RelativeLayout>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="200px"
+    android:background="@drawable/bottleimg"
+    tools:context="com.example.dell.smartbottle.Duration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewwww"
+        android:textColor="#696969"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="25px"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textvv122"
+        android:textColor="#696969"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="75dp"
+        android:text="your daily water intake goal is:"
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hydragoal"
+        android:textColor="#696969"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/storebut"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:background="@drawable/buttonview"
+        android:textColor="#F0F8FF"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:onClick="storeValue"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

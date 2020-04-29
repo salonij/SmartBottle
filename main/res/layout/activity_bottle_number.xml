@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100px"
+    android:background="@drawable/bottleimg"
+    tools:context="com.example.dell.smartbottle.BottleNumber">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many litres of water did"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:paddingBottom="20px"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tt1122"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you drink till now?"
+        android:textSize="22sp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:layout_below="@id/tt1122"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/xx3344"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xx3344"
+        android:id="@+id/litre"
+        android:hint="(in litres)"
+        android:inputType="number"
+        android:textColor="#696969"
+        android:textColorHint="#696969"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="50px"
+        android:paddingLeft="60px"
+        android:paddingRight="70px"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:background="@drawable/buttonview"
+        android:textColor="#F0F8FF"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/next"/>
+
+    </RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="150px"
+    android:paddingBottom="10px"
+    tools:context="com.example.dell.smartbottle.RingAlarm"
+    android:background="@drawable/bottleimg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/finaly"
+        android:text="     TIME TO DRINK WATER"
+        android:textSize="49sp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:paddingTop="60px"
+        android:paddingBottom="20px"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:id="@+id/stop"
+        android:background="@drawable/buttonview"
+        android:textColor="#F0F8FF"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
